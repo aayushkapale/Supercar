@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supercar Selection</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Supercar Selection</h1>
+    </header>
+    <div class="container">
+        <div class="car">
+            <img src="https://cdn.ferrari.com/cms/network/media/img/resize/5dd552852cdb32285a785d2e-line-up-ferrari-sf90-stradale?height=750" alt="Ferrari"/>
+            <h2>Ferrari</h2>
+            <p>The Ferrari is a symbol of speed, luxury, and performance.</p>
+            <a href="#" class="select-button">Select</a>
+        </div>
+        <div class="car">
+            <img src="https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/augmented-reality/revuelto/ar_revuelto.png" alt="Lamborghini"/>
+            <h2>Lamborghini</h2>
+            <p>The Lamborghini is known for its aggressive styling and powerful engine.</p>
+            <a href="#" class="select-button">Select</a>
+        </div>
+        <div class="car">
+            <img src="https://mclaren.scene7.com/is/image/mclaren/765LT_Hero_1920x1050:crop-16x9?wid=282&hei=159" alt="McLaren"/>
+            <h2>McLaren</h2>
+            <p>McLaren offers a perfect blend of racing heritage and cutting-edge technology.</p>
+            <a href="#" class="select-button">Select</a>
+        </div>
+    </div>
+</body>
+</html>

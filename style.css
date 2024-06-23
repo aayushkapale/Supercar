@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(244, 244, 244);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.car {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    width: 300px;
+}
+
+.car img {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+}
+
+.car h2 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.car p {
+    padding: 0 1rem;
+    font-size: 1rem;
+    color: #666;
+}
+
+.select-button {
+    display: block;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+    margin: 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.select-button:hover {
+    background-color: #45a049;
+}
